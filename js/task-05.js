@@ -1,7 +1,7 @@
 class Car {
   // Write code under this line
   static getSpecs(car) {
-    return `maxSpeed: ${car.maxSpeed}, speed: ${car.speed}, isOn: ${car.isOn}, distance: ${car.distance}, price: ${car._price}.`;
+    return `maxSpeed: ${car.maxSpeed}, speed: ${car.speed}, isOn: ${car.isOn}, distance: ${car.distance}, price: ${car._price}`;
   }
 
   constructor(car) {
